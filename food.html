@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Haukai Restaurant Menu</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- link icons to this project-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+
+    <header class="header">
+      <!-- navigation menu-->
+      <nav
+        class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top height-120px text-light"
+      >
+        <!-- py-3 padding Y-axe.
+        Fixed top fixed it to top of the screen when scrolling down-->
+        <div class="container">
+          <a href="index.html" class="navbar-brand"
+            ><h1><span class="text-warning">The Haukai</span></h1>
+            Restaurant</a
+          >
+
+          <!-- d-none + d-sm-block toghether will block image on SMall screen-->
+          <img
+            id="logo"
+            class="img-fluid w-25 d-none d-sm-block"
+            src="img/Logo.svg"
+            alt="Two people having dinner"
+          />
+          <!-- w-50  that is ssize is 50% of original size-->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navmenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="drinks.html" class="nav-link">Beverages</a>
+              </li>
+              <li class="nav-item">
+                <a href="bookings.html" class="nav-link">Bookings</a>
+              </li>
+              <li class="nav-item">
+                <a href="index.html#vouchers" class="nav-link">Gift Vouchers</a>
+              </li>
+              <li class="nav-item">
+                <a href="about.html" class="nav-link">About us</a>
+              </li>
+              <li class="nav-item">
+                <a href="index.html#teao" class="nav-link">Te ao Māori</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+        <!--Container for three columns -->
+      <section class="p-5 bg-dark" id="food">
+        <div class="container">
+          <div class="row text-center g-4 mt-3">
+            <!--g-4 gives a gap between boxex. Column for Appetizers-->
+            <div class="col-md">
+              <!--"col-md" columns on medium screens and up-->
+              <div class="card bg-light text-dark">
+                <div class="card-body text-center">
+                  <div class="h1 mb-3">
+                    <!--this will increase the size of the icon-->
+                    <img
+                      id="appetizer2"
+                      class="img-fluid"
+                      src="img/appetizer.svg"
+                      alt="Person enjoing a snak"
+                    />
+                  </div>
+                  <h3 class="card-title mb-3">Appetizers</h3>
+                  <p class="card-text mb-1">REWENA BREAD 10</p>
+                  <p class="card-text" id="p11">
+                    Traditional Māori Bread
+                  </p>
+                  <p class="card-text mb-1">PAUA FRITTER 16</p>
+                  <p class="card-text" id="p12">
+                    Finely disted pieces of paua, served with a side salad and
+                    horopoto dressing
+                  </p>
+
+                  <p class="card-text mb-1">RAW FISH 10</p>
+                  <p class="card-text" id="p13">
+                    Dried snapper fish marinated in coconut cream, served with
+                    tomatoes and spring onions
+                  </p>
+
+                  <p class="card-text mb-1">POACHED SALMON 22</p>
+                  <p class="card-text" id="p14">
+                    Salmon poached in an orange and pistachio glaze, served with
+                    rewena bread
+                  </p>
+
+                  <p class="card-text mb-1">SEAFOOD BUSKET 25</p>
+                  <p class="card-text" id="p15">
+                    Crumbled mussels, salt and pepper squid, crumbed hoki bites
+                    and garlic prawns
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- column for mains -->
+            <div class="col-md">
+              <div class="card bg-secondary text-light">
+                <div class="card-body text-center">
+                  <div class="h1 mb-3">
+                    <img
+                      id="mains2"
+                      class="img-fluid"
+                      src="img/mains.svg"
+                      alt="Main for dinner"
+                    />
+                  </div>
+                  <h3 class="card-title mb-3">Main</h3>
+                  <p class="card-text mb-1">FISH OF THE DAY 25</p>
+                  <p class="card-text" id="p1" >
+                    Beer-battered fish and kumara fries, served with a side
+                    salad and homemade tartare
+                  </p>
+                  <p class="card-text mb-1">MUSSLES AND SCALLOPS 25</p>
+                  <p class="card-text" id="p2">
+                    Steamed mussels & scallop mousse, honey and soy broth
+                  </p>
+
+                  <p class="card-text mb-1">SEAFOOD CHOWDER 30</p>
+                  <p class="card-text"  id="p3">
+                    Creamy chowder filled with tarakihi, prawn, hoki, scallops
+                    and mussels, served with flatbread
+                  </p>
+
+                  <p class="card-text mb-1">PORK BELLY 30</p>
+                  <p class="card-text" id="p4">
+                    Slow-cooked pork belly served on a bed of apple slaw with
+                    roasted kumara and crispy noodles
+                  </p>
+
+                  <p class="card-text mb-1">LAMB STEAK 33</p>
+                  <p class="card-text" id="p5">
+                    New Zealand lamb coated in a kawakawa crumb, served with
+                    Dijon-mustard-glazed carrots, roasted butternut squash ans
+                    mushroom jus
+                  </p>
+                  <p class="card-text mb-1">VENISON 33</p>
+                  <p class="card-text" id="p6">
+                    Venison crusted with Horopito, served with glazed plums,
+                    cabbage salad and red wine jus
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- column for desserts-->
+            <div class="col-md">
+              <div class="card bg-light text-dark">
+                <div class="card-body text-center">
+                  <div class="h1 mb-3">
+                    <!--this will increase the size of the icon-->
+                    <img
+                      id="dessert2"
+                      class="img-fluid"
+                      src="img/dessert.svg"
+                      alt="Person with Ice Cream"
+                    />
+                  </div>
+                  <h3 class="card-title mb-3">Dessert</h3>
+                  <p class="card-text mb-1">KAPITI ICE CREAM 10</p>
+                  <p class="card-text" id="p7">
+                    Check for daily specials
+                  </p>
+                  <p class="card-text mb-1">STEAMED PUDDING 12</p>
+                  <p class="card-text" id="p8">
+                    Golden-syrop-flavoured steamed pudding, server with vanilla
+                    ice cream
+                  </p>
+
+                  <p class="card-text mb-1">MINI PAVLOVA 16</p>
+                  <p class="card-text" id="p9">
+                    Mini pavlova, served with kawakawa and lemon-infused cream
+                    and fresh fruit
+                  </p>
+
+                  <p class="card-text mb-1">BANOFFEE PIE 16</p>
+                  <p class="card-text" id="p10">
+                    Toffee, fresh bananas and fresh cream
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- social media -->
+      <section id="socialsection">
+        <div class="card bg-info">
+          <div id="socialmedia" class="card-body text-center">
+            <div class="h1 mb-3">
+              <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+              <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+              <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+              <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--footer-->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+      <div class="container">
+        <p class="lead">&copy; Copyright The Haukai Restaurant 2023</p>
+        <a href="#" class="position-absolute bottom-0 end-0 p-5">
+          <i class="bi bi-arrow-up-circle h1"></i>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>

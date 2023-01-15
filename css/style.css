@@ -1,0 +1,57 @@
+/*  Creates a ghost element on the top of the page. so our boxex not clash. Not cumpulsory but better looking*/
+body::before {
+    display:block;
+    content: '';
+    height: 110px;
+}
+/*universal box-sizing*/
+* {
+    box-sizing: border-box;
+}
+
+#socialmedia {
+    size: 2em;
+}
+
+#bookings1, #bookings2 {
+    max-width: 175px;
+    
+}
+
+#aboutimage, #calendarimage {
+    max-width: 250px;
+}
+
+
+#logo {
+    max-height: 100px;
+}
+
+#appetizer2, #mains2, #dessert2 {
+    max-height: 75px;
+}
+
+
+/*  CSS to make enter guests input half the size on big screen*/
+@media (min-width:768px) {
+    .form-floating {
+        width: 75%;  
+    }
+}
+
+@media (min-width:768px) {
+    #submitbutton {
+        width: 20%;  
+        text-align: center;
+    }
+}
+
+#p1,#p2,#p3,#p4,#p5,#p6,#p7,#p8,#p9,#p10,#p11,#p12,#p13,#p14,#p15 {
+    font-size: small;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}

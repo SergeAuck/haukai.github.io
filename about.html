@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Haukai Restaurant About Us</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- link icons to this project-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+
+    <header class="header">
+      <!-- navigation menu-->
+      <nav
+        class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top height-120px text-light"
+      >
+        <!-- py-3 padding Y-axe.
+        Fixed top fixed it to top of the screen when scrolling down-->
+        <div class="container">
+          <a href="index.html" class="navbar-brand"
+            ><h1><span class="text-warning">The Haukai</span></h1>
+            Restaurant</a
+          >
+
+          <!-- d-none + d-sm-block toghether will block image on SMall screen-->
+          <img
+            id="logo"
+            class="img-fluid w-25 d-none d-sm-block"
+            src="img/Logo.svg"
+            alt="Two people having dinner"
+          />
+          <!-- w-50  that is ssize is 50% of original size-->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navmenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="food.html" class="nav-link">Food</a>
+              </li>
+              <li class="nav-item">
+                <a href="drinks.html" class="nav-link">Beverages</a>
+              </li>
+              <li class="nav-item">
+                <a href="bookings.html" class="nav-link">Bookings</a>
+              </li>
+              <li class="nav-item">
+                <a href="index.html#vouchers" class="nav-link">Gift Vouchers</a>
+              </li>
+              <li class="nav-item">
+                <a href="index.html#teao" class="nav-link">Te ao Māori</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!--About section-->  
+      <section id="about" class="p-5">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-md">
+              <img
+                id="aboutimage"
+                src="img/aboutus.svg"
+                alt="Paysage with trees"
+                class="img-fluid d-none d-sm-block"
+              />
+              <!--image will dessapear om small screen-->
+            </div>
+            <div class="col-md p-5">
+              <h2>About Us</h2>
+              <p class="lead">
+                Haukai Restaurant specialises in Māori kai and is based in the
+                Bay of Islands. It was started by a couple who are keen on
+                creating a business that would appeal to locals and tourists
+                visiting the area.
+              </p>
+              <p>
+                The dinner menu features Māori and Pākeha kai options and
+                drinks.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Opening hours section-->
+      <section id="opendates" class="p-5 bg-dark text-light">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-md p-5">
+              <h2>— OPENING HOURS —</h2>
+              <p class="lead">
+                Wednesday - Sunday <br />
+                16.00PM - LATE
+              </p>
+              <p>
+                Monday, Tuesday <br />
+                CLOSED
+              </p>
+            </div>
+            <div class="col-md">
+              <img
+                src="img/mains.svg"
+                alt="Dinner served"
+                class="img-fluid d-none d-sm-block"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Check area-->
+      <section id="calendar" class="p-5">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-md">
+              <img
+                id="calendarimage"
+                src="img/calendar.svg"
+                alt="calendar with picked date"
+                class="img-fluid d-none d-sm-block"
+              />
+              <!--image will dessapear om small screen-->
+            </div>
+            <div class="col-md p-5">
+              <h2>Check our working hours!</h2>
+              <p class="lead">Pick a date to check if we are open</p>
+              <p>Please note opening hours are subject to change</p>
+              <div class="form-floating">
+                <input
+                  type="date"
+                  class="form-control"
+                  id="checkdate"
+                />
+                <label for="checkdate">Pick a date</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Social media-->
+      <section id="socialsection">
+        <div class="card bg-info">
+          <div id="socialmedia" class="card-body text-center">
+            <div class="h1 mb-3">
+              <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+              <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+              <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+              <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--footer-->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+      <div class="container">
+        <p class="lead">&copy; Copyright The Haukai Restaurant 2023</p>
+        <a href="#" class="position-absolute bottom-0 end-0 p-5">
+          <i class="bi bi-arrow-up-circle h1"></i>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
