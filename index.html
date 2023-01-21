@@ -1,8 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Dear marker, due to the lack of access to Heroku or similar free service i was not able to do it on the live site. But it should run on local apache machine  -->
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-HMQEC3VXZP"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-HMQEC3VXZP");
+    </script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="Haukai Restaurant, Kerikeri restaurant cafe"
+    />
+    <meta name="description" content="Good Restaurant in Kerekeri area" />
     <title>The Haukai Restaurant</title>
     <link rel="stylesheet" href="css/style.css" />
     <link
@@ -83,12 +103,16 @@
       </nav>
     </header>
     <main>
-      <!-- food section--> 
+      <!-- food section-->
       <section id="food" class="p-5">
         <div class="container">
           <div class="row align-items-center justify-content-between">
             <div class="col-md">
-              <img src="img/chef.svg" alt="chef ready to cook" class="img-fluid w-75" />
+              <img
+                src="img/chef.svg"
+                alt="chef ready to cook"
+                class="img-fluid w-75"
+              />
             </div>
             <div class="col-md p-5">
               <h2>Food</h2>
@@ -122,7 +146,11 @@
               </a>
             </div>
             <div class="col-md">
-              <img src="img/drinks.svg" alt="Drink being poured into glass" class="img-fluid w-75" />
+              <img
+                src="img/drinks.svg"
+                alt="Drink being poured into glass"
+                class="img-fluid w-75"
+              />
             </div>
           </div>
         </div>
@@ -132,7 +160,11 @@
         <div class="container">
           <div class="row align-items-center justify-content-between">
             <div class="col-md">
-              <img src="img/calendar.svg" alt="calendar with picked date" class="img-fluid w-75" />
+              <img
+                src="img/calendar.svg"
+                alt="calendar with picked date"
+                class="img-fluid w-75"
+              />
             </div>
             <div class="col-md p-5">
               <h2>Book a table</h2>
@@ -162,7 +194,11 @@
               </a>
             </div>
             <div class="col-md">
-              <img src="img/gift.svg" alt="Wrapped gift" class="img-fluid w-75" />
+              <img
+                src="img/gift.svg"
+                alt="Wrapped gift"
+                class="img-fluid w-75"
+              />
             </div>
           </div>
         </div>
@@ -172,7 +208,11 @@
         <div class="container">
           <div class="row align-items-center justify-content-between">
             <div class="col-md">
-              <img src="img/fern.jpg" alt="Silver Fern" class="img-fluid w-100" />
+              <img
+                src="img/fern.jpg"
+                alt="Silver Fern"
+                class="img-fluid w-100"
+              />
             </div>
             <div class="col-md p-5">
               <h2>Te ao Māori</h2>
@@ -217,8 +257,8 @@
           </a>
         </div>
         <div class="col-md p-3">
-          <!-- Do we privacy statement for this project?-->
-          <a href="№" class="nav-link">Privacy Statement</a> 
+          <!-- Do we need privacy statement for this project?-->
+          <a href="#" class="nav-link">Privacy Statement</a>
         </div>
         <div class="col-md p-3">
           <a href="private/private.html" class="nav-link">Staff Only</a>

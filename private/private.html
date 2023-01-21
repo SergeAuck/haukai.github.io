@@ -1,8 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-HMQEC3VXZP"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-HMQEC3VXZP");
+    </script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Private page for staff only" />
     <title>The Haukai Restaurant Staff Page</title>
     <link rel="stylesheet" href="../css/style.css" />
     <link
@@ -11,7 +26,7 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
-    
+
     <!-- link icons to this project-->
     <link
       rel="stylesheet"
@@ -67,7 +82,9 @@
                 <a href="../bookings.html" class="nav-link">Bookings</a>
               </li>
               <li class="nav-item">
-                <a href="../index.html#vouchers" class="nav-link">Gift Vouchers</a>
+                <a href="../index.html#vouchers" class="nav-link"
+                  >Gift Vouchers</a
+                >
               </li>
               <li class="nav-item">
                 <a href="../index.html#teao" class="nav-link">Te ao Māori</a>
@@ -82,171 +99,188 @@
     </header>
 
     <main>
-        <section id="managers" class="p-5 bg-light py-10">
-            <div class="container">
-                <h2 class="text-center text-primary">Managers</h2>
-                <p class="lead text-center text-dark mb-2"> Please, don't hesitate to contact us any time</p>
-                <div class="row g-4 justify-content-center">
-                    <div class="col-md-6 col-lg-3"> <!-- col-md-6 will occupy 6 grids out of 12 on medium screen-->
-                        <div class="card bg-secondary">
-                            <div class="card-body text-center">
-                                <img src="https://randomuser.me/api/portraits/men/11.jpg" 
-                                class="rounded-circle mb-3"  alt="">  <!-- rounded-circle makes the photo round -->  
-                                <h3 class="card-title mb-e">James Konini</h3>
-                                <p class="card-text text-light"> Mobile: 021 111111 </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3"> <!-- col-md-6 will occupy 6 grids out of 12 on medium screen-->
-                        <div class="card bg-secondary">
-                            <div class="card-body text-center">
-                                <img src="https://randomuser.me/api/portraits/women/11.jpg" 
-                                class="rounded-circle mb-3"  alt="">  <!-- rounded-circle makes the photo round -->  
-                                <h3 class="card-title mb-e">Leysa Konini</h3>
-                                <p class="card-text text-light"> Mobile: 021 111112 </p>
-                            </div>
-                        </div>
-                    </div> 
-                    
+      <section id="managers" class="p-5 bg-light py-10">
+        <div class="container">
+          <h2 class="text-center text-primary">Managers</h2>
+          <p class="lead text-center text-dark mb-2">
+            Please, don't hesitate to contact us any time
+          </p>
+          <div class="row g-4 justify-content-center">
+            <div class="col-md-6 col-lg-3">
+              <!-- col-md-6 will occupy 6 grids out of 12 on medium screen-->
+              <div class="card bg-secondary">
+                <div class="card-body text-center">
+                  <img
+                    src="https://randomuser.me/api/portraits/men/11.jpg"
+                    class="rounded-circle mb-3"
+                    alt=""
+                  />
+                  <!-- rounded-circle makes the photo round -->
+                  <h3 class="card-title mb-e">James Konini</h3>
+                  <p class="card-text text-light">Mobile: 021 111111</p>
                 </div>
-            </div> 
-        </section>
-<!-- 3 things using flexbox-->
-        <section id="workers" class="p-5 bg-primary">
-              <h2 class="frheader">Employees</h2>
-                <p class="frtext"> Haukai Champions:</p>
-              <div class="containerone">
-                
-                <div class="flexboxone">
-                          <img src="https://randomuser.me/api/portraits/men/14.jpg" 
-                          class="rounded-circle mb-3"  alt="Mark">  <!-- rounded-circle makes the photo round -->  
-                          <h3 class="ftitle">Mark</h3>
-                          <p class="ftext"> Mobile: 021 111113</p>
-                        
-                  </div>
-                    <div class="flexboxtwo"> 
-                        
-                                <img src="https://randomuser.me/api/portraits/women/18.jpg" 
-                                class="rounded-circle mb-3"  alt="Mary Jane">  <!-- rounded-circle makes the photo round -->  
-                                <h3 class="ftitle">Mary Jane</h3>
-                                <p class="ftext"> Mobile: 021 111114 </p>
-                        
-                    </div> 
-                    <div class="flexboxthree"> 
-                        
-                                <img src="https://randomuser.me/api/portraits/women/33.jpg" 
-                                class="rounded-circle mb-3"  alt="Susan">  <!-- rounded-circle makes the photo round -->  
-                                <h3 class="ftitle">Susan</h3>
-                                <p class="ftext"> Mobile: 021 111115 </p>
-                       
-                    </div> 
-                       
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <!-- col-md-6 will occupy 6 grids out of 12 on medium screen-->
+              <div class="card bg-secondary">
+                <div class="card-body text-center">
+                  <img
+                    src="https://randomuser.me/api/portraits/women/11.jpg"
+                    class="rounded-circle mb-3"
+                    alt=""
+                  />
+                  <!-- rounded-circle makes the photo round -->
+                  <h3 class="card-title mb-e">Leysa Konini</h3>
+                  <p class="card-text text-light">Mobile: 021 111112</p>
                 </div>
-            </div> 
-        </section>
-        <section id="roster " class="bg-light p-5" >
-          <div class="container">
-            <h2 class="text-center text-dark">Roster</h2>
-            <p class="lead text-center text-dark mb-2"> Please, contact one of our managers if you need to make changes to roster</p>
-            <table class="table table-hover table-secondary">
-              <thead>
-                <tr>
-                  <th scope="col">Date</th>
-                  <th scope="col">Chef</th>
-                  <th scope="col">Waiter</th>
-                  <th scope="col">Notes</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">Sunday - January, 22nd</th>
-                  <td>James</td>
-                  <td>Mark</td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <th scope="row">Monday - January, 23rd</th>
-                  <td>James</td>
-                  <td>Mark</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <th scope="row">Tuesday - January, 24th</th>
-                  <td>Susan</td>
-                  <td>Mark</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <th scope="row">Wednesday - January, 25th</th>
-                  <td>Susan</td>
-                  <td>MJ</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <th scope="row">Thursday - January, 26th</th>
-                  <td>James</td>
-                  <td>MJ</td>
-                  <td>Susan's Birthday!</td>
-                </tr>
-                <tr>
-                  <th scope="row">Friday - January, 27th</th>
-                  <td>James</td>
-                  <td>Mark, Leysa</td>
-                  <td>Busy Friday</td>
-                </tr>
-                <tr>
-                  <th scope="row">Saturday - January, 28th</th>
-                  <td>Susan</td>
-                  <td>Mark, Leysa</td>
-                  <td>Busy Saturday</td>
-                </tr>
-                <tr>
-                  <th scope="row">Sunday - January, 29th</th>
-                  <td>Susan</td>
-                  <td>Mark</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <th scope="row">Monday - January, 30th</th>
-                  <td>James</td>
-                  <td>Mark</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <th scope="row">Tuesday - January, 31st</th>
-                  <td>James</td>
-                  <td>Mark</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <th scope="row">Wednesday - February, 1st</th>
-                  <td>Susan</td>
-                  <td>MJ, Leysa</td>
-                  <td>Big group booking</td>
-                </tr>
-                <tr>
-                  <th scope="row">Trursday - February, 2nd</th>
-                  <td>Susan</td>
-                  <td>MJ</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <th scope="row">Friday - February, 3rd</th>
-                  <td>James</td>
-                  <td>Mark, Leysa</td>
-                  <td>Busy Friday</td>
-                </tr>
-                <tr>
-                  <th scope="row">Saturday - February, 4th</th>
-                  <td>James</td>
-                  <td>Mark, Leysa</td>
-                  <td>Busy Saturday</td>
-                </tr>
-              </tbody>
-            </table>
+              </div>
+            </div>
           </div>
-        
-        </section>
+        </div>
+      </section>
+      <!-- 3 things using flexbox-->
+      <section id="workers" class="p-5 bg-primary">
+        <h2 class="frheader">Employees</h2>
+        <p class="frtext">Haukai Champions:</p>
+        <div class="containerone">
+          <div class="flexboxone">
+            <img
+              src="https://randomuser.me/api/portraits/men/14.jpg"
+              class="rounded-circle mb-3"
+              alt="Mark"
+            />
+            <!-- rounded-circle makes the photo round -->
+            <h3 class="ftitle">Mark</h3>
+            <p class="ftext">Mobile: 021 111113</p>
+          </div>
+          <div class="flexboxtwo">
+            <img
+              src="https://randomuser.me/api/portraits/women/18.jpg"
+              class="rounded-circle mb-3"
+              alt="Mary Jane"
+            />
+            <!-- rounded-circle makes the photo round -->
+            <h3 class="ftitle">Mary Jane</h3>
+            <p class="ftext">Mobile: 021 111114</p>
+          </div>
+          <div class="flexboxthree">
+            <img
+              src="https://randomuser.me/api/portraits/women/33.jpg"
+              class="rounded-circle mb-3"
+              alt="Susan"
+            />
+            <!-- rounded-circle makes the photo round -->
+            <h3 class="ftitle">Susan</h3>
+            <p class="ftext">Mobile: 021 111115</p>
+          </div>
+        </div>
+      </section>
+      <section id="roster " class="bg-light p-5">
+        <div class="container">
+          <h2 class="text-center text-dark">Roster</h2>
+          <p class="lead text-center text-dark mb-2">
+            Please, contact one of our managers if you need to make changes to
+            roster
+          </p>
+          <table class="table table-hover table-secondary">
+            <thead>
+              <tr>
+                <th scope="col">Date</th>
+                <th scope="col">Chef</th>
+                <th scope="col">Waiter</th>
+                <th scope="col">Notes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Sunday - January, 22nd</th>
+                <td>James</td>
+                <td>Mark</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">Monday - January, 23rd</th>
+                <td>James</td>
+                <td>Mark</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">Tuesday - January, 24th</th>
+                <td>Susan</td>
+                <td>Mark</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">Wednesday - January, 25th</th>
+                <td>Susan</td>
+                <td>MJ</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">Thursday - January, 26th</th>
+                <td>James</td>
+                <td>MJ</td>
+                <td>Susan's Birthday!</td>
+              </tr>
+              <tr>
+                <th scope="row">Friday - January, 27th</th>
+                <td>James</td>
+                <td>Mark, Leysa</td>
+                <td>Busy Friday</td>
+              </tr>
+              <tr>
+                <th scope="row">Saturday - January, 28th</th>
+                <td>Susan</td>
+                <td>Mark, Leysa</td>
+                <td>Busy Saturday</td>
+              </tr>
+              <tr>
+                <th scope="row">Sunday - January, 29th</th>
+                <td>Susan</td>
+                <td>Mark</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">Monday - January, 30th</th>
+                <td>James</td>
+                <td>Mark</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">Tuesday - January, 31st</th>
+                <td>James</td>
+                <td>Mark</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">Wednesday - February, 1st</th>
+                <td>Susan</td>
+                <td>MJ, Leysa</td>
+                <td>Big group booking</td>
+              </tr>
+              <tr>
+                <th scope="row">Trursday - February, 2nd</th>
+                <td>Susan</td>
+                <td>MJ</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">Friday - February, 3rd</th>
+                <td>James</td>
+                <td>Mark, Leysa</td>
+                <td>Busy Friday</td>
+              </tr>
+              <tr>
+                <th scope="row">Saturday - February, 4th</th>
+                <td>James</td>
+                <td>Mark, Leysa</td>
+                <td>Busy Saturday</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
       <!--Social media-->
       <section id="socialsection">
         <div class="card bg-info">

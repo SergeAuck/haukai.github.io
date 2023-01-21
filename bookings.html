@@ -1,8 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-HMQEC3VXZP"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-HMQEC3VXZP");
+    </script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Bookings at Haukai Restaurant" />
     <title>The Haukai Restaurant Bookings</title>
     <link rel="stylesheet" href="css/style.css" />
     <link
@@ -80,9 +95,9 @@
         </div>
       </nav>
     </header>
-    
+
     <main>
-      <!-- booking warnings-->  
+      <!-- booking warnings-->
       <section id="bookinginfo" class="p-5">
         <div class="container">
           <div
@@ -93,7 +108,7 @@
                 id="bookings1"
                 src="img/Booking1.svg"
                 alt="Person with the book"
-                class="img-fluid "
+                class="img-fluid"
               />
             </div>
             <div class="col-md p-5 text-center">
@@ -115,19 +130,15 @@
           </div>
         </div>
       </section>
-      <!-- date and time section--> 
+      <!-- date and time section-->
       <section id="bookingdatatime" class="p-2 bg-dark text-center">
         <div class="container">
           <h3 class="mb-3 text-light">Time and party</h3>
           <div class="row g-2 mb-2">
             <div class="col-md">
               <div class="form-floating">
-                <input
-                  type="date"
-                  class="form-control"
-                  id="bookingdate"
-                />
-                <label for="bookingdate" >Pick a date</label>
+                <input type="date" class="form-control" id="bookingdate" />
+                <label for="bookingdate">Pick a date</label>
               </div>
             </div>
             <div class="col-md">
@@ -154,7 +165,7 @@
           </div>
         </div>
       </section>
-      <!-- Customer contact information--> 
+      <!-- Customer contact information-->
       <section id="repsonalinfo" class="p-2 bg-secondary text-center">
         <div class="container">
           <h3 class="mb-3 text-light">Contact information</h3>
@@ -190,18 +201,18 @@
             </div>
           </div>
           <div class="row g-2 mt-2 mb-3 justify-content-center">
-            <!-- button doesnt do anything ATM--> 
+            <!-- button doesnt do anything ATM-->
             <button
               id="submitbutton"
               class="btn btn-warning btn-lg"
               type="button"
             >
-              Request a booking  
+              Request a booking
             </button>
           </div>
         </div>
       </section>
-      <!-- Social Media--> 
+      <!-- Social Media-->
       <section id="socialsection">
         <div class="card bg-info">
           <div id="socialmedia" class="card-body text-center">
@@ -214,7 +225,7 @@
           </div>
         </div>
       </section>
-      <!-- Footer--> 
+      <!-- Footer-->
       <footer class="p-5 bg-dark text-white text-center position-relative">
         <div class="container">
           <p class="lead">&copy; Copyright The Haukai Restaurant 2023</p>
